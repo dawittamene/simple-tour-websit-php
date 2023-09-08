@@ -4,6 +4,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
     $quantity = $_POST['quantity'];
     $arrivals = $_POST['arrivals'];
     $Leaving = $_POST['Leaving'];
+    $went = $_POST['went'];
     
     
 }
@@ -14,7 +15,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
 
 $conn = new mysqli('localhost', 'root', '', 'contact');
 if ($conn){
-    $sql = "insert into `book`(place,quantity,arrivals,Leaving)values('$place','$quantity','$arrivals','$Leaving')";
+    $sql = "insert into `book`(place,quantity,arrivals,Leaving,went)values('$place','$quantity','$arrivals','$Leaving','$went')";
     $result=mysqli_query($conn,$sql);
     if($result){
         

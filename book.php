@@ -118,25 +118,30 @@
     </div>
     <form action="bookprocess.php" method="POST">
         <div class="inputbox">
-            <h3>where to</h3>
+            <h3>Where To</h3>
             <input type="text" name="place" placeholder="place name" required>
         </div>
 
         <div class="inputbox">
-            <h3>how many</h3>
+            <h3>Where Do You went to</h3>
+            <input type="text" name="went" placeholder="enter where you went place" required>
+        </div>
+
+        <div class="inputbox">
+            <h3>How Many</h3>
             <input type="number" name="quantity" placeholder="number of guests" required>
         </div>
 
          <div class="inputbox">
-            <h3>arrivals</h3>
+            <h3>Arrivals</h3>
             <input type="date" name="arrivals" required>
         </div>
 
         <div class="inputbox">
-            <h3>leaving</h3>
+            <h3>Leaving</h3>
             <input type="date" name="Leaving" required>
         </div>
-<input type="submit" value="book now" name="submit" class="btn">
+<input type="submit" value="Book Now" name="submit" class="btn">
     </form>
 </div>
 </section>
