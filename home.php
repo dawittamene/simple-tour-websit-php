@@ -15,7 +15,7 @@
 
 <header>
     <div id="menu-bar" class="fas fa-bars"></div>
-    <a href="#" class="logo"><span>z</span>ubara <span> t</span>ravel</a>
+    <a href="home.php" class="logo"><span>z</span>umbara <span> t</span>ravel</a>
     <nav class="navbar">
         <a href="home.php">home</a>
         <a href="book.php">book</a>
@@ -83,8 +83,8 @@
 
     <div class="content">
         <h3>adventure is worthwhile</h3>
-        <p>dicover new places with us, adventure awaits</p>
-        <a href="#" class="btn">dicover more</a>
+        <p>discover new places with us, adventure awaits</p>
+        <a href="#" class="btn">discover more</a>
     </div>
 
 <span class="vid-btn" data-src="image/4.mp"></span>
@@ -170,7 +170,7 @@
         </div>
 
     </div>
-    <h1 class="credit"> created by <span> zubara web developer group </span> | all rights reserved! </h1>
+    <h1 class="credit"> created by <span> zumbara web developer group </span> | all rights reserved! </h1>
 </section>
 <!--footer section ends-->
 

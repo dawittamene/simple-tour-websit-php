@@ -47,7 +47,7 @@ if(isset($_SESSION['view'])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="end.css">
-    <title>dawit tamen</title>
+    <title>zumbara</title>
     <?php echo "You Are Number ".$_SESSION['view']." Visiter"
     
     ?>
