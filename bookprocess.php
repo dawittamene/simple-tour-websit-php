@@ -1,10 +1,10 @@
 <?php
 if($_SERVER['REQUEST_METHOD']=='POST'){
-    $name = $_POST['user'];
-    $email = $_POST['email'];
-    $number = $_POST['phone'];
-    $massage = $_POST['advice'];
-    $subject = $_POST['reseon'];
+    $place = $_POST['place'];
+    $quantity = $_POST['quantity'];
+    $arrivals = $_POST['arrivals'];
+    $Leaving = $_POST['Leaving'];
+    
     
 }
 
@@ -14,7 +14,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
 
 $conn = new mysqli('localhost', 'root', '', 'contact');
 if ($conn){
-    $sql = "insert into `user`(name,email,number,massage,subject)values('$name','$email','$number','$massage','$subject')";
+    $sql = "insert into `book`(place,quantity,arrivals,Leavingt)values('$place','$quantity','$arrivals','$massage','$Leaving')";
     $result=mysqli_query($conn,$sql);
     if($result){
         

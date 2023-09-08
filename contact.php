@@ -1,32 +1,3 @@
-<?php
-if(isset($_POST['submit'])){
-    $user=$_POST['user'];
-    $email=$_POST['email'];
-    $phone=$_POST['phone'];
-    $reseon=$_POST['reseon'];
-    $advice=$_POST['advice'];
-
-    $host='localhost';
-    $user='root';
-    $pass='';
-    $dbname='contact';
-
-
-    $conn=mysqli_connect($host,$user,$pass,$contact);
-    $sql="INSERT INTO `service` (user,email,phone,reseon,advice) values ('$user', '$email', '$phone', '$reseon', '$advice')";
-    mysqli_query($conn,$sql);
-}
-
- 
-
-
-?>
-
-
-
-
-
-
 
 
 
@@ -43,6 +14,7 @@ if(isset($_POST['submit'])){
 <!--coustom css file link-->
 <link rel="stylesheet" href="index.css">
 <link rel="stylesheet" href="end.css">
+
 </head>
 <body>
     <!--header section starts-->

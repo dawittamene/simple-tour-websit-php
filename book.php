@@ -1,27 +1,4 @@
-<?php
 
-
-if(isset($_POST['submit'])){
-    $place=$_POST['place'];
-    $quntity=$_POST['quntity'];
-    $arrivals=$_POST['arrivals'];
-    $Leaving=$_POST['Leaving'];
-
-    $host='localhost';
-    $user='root';
-    $pass='';
-    $dbname='book';
-
-
-    $conn=mysqli_connect($host,$user,$pass,$dbname);
-    $sql="INSERT INTO `user` (place,arrivals,Leaving,quntity) values ('$place', '$arrivals', '$Leaving', '$quntity')";
-    mysqli_query($conn,$sql);
-
-}
-
-
-
-?>
 
 
 
@@ -146,7 +123,7 @@ if(isset($_POST['submit'])){
 
         <div class="inputbox">
             <h3>how many</h3>
-            <input type="number" name="quntity" placeholder="number of guests" required>
+            <input type="number" name="quantity" placeholder="number of guests" required>
         </div>
 
          <div class="inputbox">
