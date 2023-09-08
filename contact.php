@@ -23,7 +23,7 @@
     <div id="menu-bar" class="fas fa-bars"></div>
     <a href="home.php" class="logo"><span>z</span>umbara <span> t</span>ravel</a>
     <nav class="navbar">
-        <a href="home.php">home</a>
+        <a href="index.php">home</a>
         <a href="book.php">book</a>
         <a href="packages.php">packages</a>
         <a href="services.php">services</a>
@@ -73,7 +73,7 @@
         <input type="password" class="box" placeholder="enter your password">
         <input type="submit" value="loin now"class="btn">
 
-        <p>don't have and account? <a href="register.php">register now</a></p>
+        <p>don't have an account? <a href="register.php">Register Now</a></p>
     </form>
 
 
@@ -104,13 +104,13 @@
 
         <form action="process.php" method="POST">
             <div class="inputbox">
-                <input type="text" placeholder="name" name="user">
-                <input type="email" placeholder="email" name="email">
+                <input type="text" placeholder="name" name="user" required>
+                <input type="email" placeholder="email" name="email" required>
             </div>
 
             <div class="inputbox">
-                <input type="number" placeholder="number" name="phone">
-                <input type="text" placeholder="subject" name="reseon">
+                <input type="number" placeholder="number" name="phone" required>
+                <input type="text" placeholder="subject" name="reseon" required>
             </div>
 
             <textarea placeholder="message" name="advice" id="" cols="30" rows="10"></textarea>
@@ -153,7 +153,7 @@
 
         <div class="box">
             <h3>quick links</h3>
-            <a href="home.php">home</a>
+            <a href="index.php">home</a>
             <a href="book.php">book</a>
             <a href="packages.php">packages</a>
             <a href="gallery.php">gallery</a>
@@ -167,6 +167,7 @@
             <h3>follow us</h3>
             <a href="https://www.facebook.com/dawit.tcool">facebook</a>
             <a href="https://www.instagram.com/dawit_1313/">instagram</a>
+            <a href="https://github.com/dawittamene">GitHub</a>
        
             <a href="https://twitter.com/dawittamene559">twitter</a>
             <a href="https://www.linkedin.com/in/dawit-tamene-531194273/">linledin</a>

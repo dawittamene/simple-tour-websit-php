@@ -59,7 +59,7 @@ if(isset($_SESSION['view'])){
             <h1>Hi, Your Data Is Inserted Successfully</h1>
         </div>
 
-        <a href="home.php" class="back">&#x2190; Back To Home </a>
+        <a href="index.php" class="back">&#x2190; Back To Home </a>
   
    
     
