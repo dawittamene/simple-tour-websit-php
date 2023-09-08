@@ -42,6 +42,7 @@ if(isset($_POST['submit'])){
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <!--coustom css file link-->
 <link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="end.css">
 </head>
 <body>
     <!--header section starts-->
