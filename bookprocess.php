@@ -14,7 +14,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
 
 $conn = new mysqli('localhost', 'root', '', 'contact');
 if ($conn){
-    $sql = "insert into `book`(place,quantity,arrivals,Leavingt)values('$place','$quantity','$arrivals','$massage','$Leaving')";
+    $sql = "insert into `book`(place,quantity,arrivals,Leaving)values('$place','$quantity','$arrivals','$Leaving')";
     $result=mysqli_query($conn,$sql);
     if($result){
         

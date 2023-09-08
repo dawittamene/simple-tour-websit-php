@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <!--coustom css file link-->
 <link rel="stylesheet" href="index.css">
+
 </head>
 <body>
     <!--header section starts-->
@@ -115,7 +116,7 @@
     <div class="image">
         <img src="pic/tour_travel.png" alt="">
     </div>
-    <form action="#" method="POST">
+    <form action="bookprocess.php" method="POST">
         <div class="inputbox">
             <h3>where to</h3>
             <input type="text" name="place" placeholder="place name" required>
