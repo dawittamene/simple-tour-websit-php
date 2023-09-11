@@ -42,22 +42,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-    <!--header section ends-->
-   
-
-<!--login form container-->
-
 <div class="login-form-container">
     <i class="fas fa-times" id="form-close"></i>
 
